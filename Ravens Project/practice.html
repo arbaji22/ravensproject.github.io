@@ -1,0 +1,65 @@
+<!-- Filter Sidebar -->
+<aside id="filterSidebar" class="filter-sidebar">
+    <button class="close-btn" onclick="toggleFilter()">X</button>
+    <h3>Filter & Sort</h3>
+    
+    <!-- Conference Filter Group with Expandable Teams -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('conference-options')">Conferences</button>
+        <div id="conference-options" class="expandable-content">
+            <button class="expand-button" onclick="toggleExpand('sec-teams')">SEC</button>
+            <div id="sec-teams" class="expandable-content">
+                <label><input type="checkbox" name="team" value="Alabama"> Alabama</label>
+                <label><input type="checkbox" name="team" value="Georgia"> Georgia</label>
+                <!-- Add more SEC teams -->
+            </div>
+            <button class="expand-button" onclick="toggleExpand('big-ten-teams')">Big Ten</button>
+            <div id="big-ten-teams" class="expandable-content">
+                <label><input type="checkbox" name="team" value="Ohio State"> Ohio State</label>
+                <label><input type="checkbox" name="team" value="Michigan"> Michigan</label>
+                <!-- Add more Big Ten teams -->
+            </div>
+            <!-- Add more conferences and their teams in a similar structure -->
+        </div>
+    </div>
+
+    <!-- Offensive Positions with Expandable Content -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('offensive-positions')">Offensive Positions</button>
+        <div id="offensive-positions" class="expandable-content">
+            <label><input type="checkbox" name="position" value="QB"> Quarterback (QB)</label>
+            <label><input type="checkbox" name="position" value="WR"> Wide Receiver (WR)</label>
+            <label><input type="checkbox" name="position" value="RB"> Running Back (RB)</label>
+            <label><input type="checkbox" name="position" value="FB"> Fullback (FB)</label>
+            <label><input type="checkbox" name="position" value="TE"> Tight End (TE)</label>
+            <label><input type="checkbox" name="position" value="OL"> Offensive Lineman (OL)</label>
+        </div>
+    </div>
+
+    <!-- Defensive Positions with Expandable Content -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('defensive-positions')">Defensive Positions</button>
+        <div id="defensive-positions" class="expandable-content">
+            <label><input type="checkbox" name="position" value="DL"> Defensive Lineman (DL)</label>
+            <label><input type="checkbox" name="position" value="LB"> Linebacker (LB)</label>
+            <label><input type="checkbox" name="position" value="DB"> Defensive Back (DB)</label>
+            <label><input type="checkbox" name="position" value="CB"> Cornerback (CB)</label>
+            <label><input type="checkbox" name="position" value="S"> Safety (S)</label>
+        </div>
+    </div>
+
+    <!-- Special Teams Positions with Expandable Content -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('special-teams-positions')">Special Teams Positions</button>
+        <div id="special-teams-positions" class="expandable-content">
+            <label><input type="checkbox" name="position" value="K"> Kicker (K)</label>
+            <label><input type="checkbox" name="position" value="P"> Punter (P)</label>
+        </div>
+    </div>
+
+
+    <div class="button-container">
+        <button class="reset-filters">Reset Filters</button>
+        <button class="apply-filters">Apply Filters</button>
+    </div>
+</aside>

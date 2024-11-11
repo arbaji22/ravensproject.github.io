@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Statistics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-bar">
+            <img src="logos/cardinals.png" alt="Team 1 Logo" class="team-logo">
+            <img src="logos/buffalos.png" alt="Team 2 Logo" class="team-logo">
+            <img src="logos/huskies.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/lions.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/mountaineers.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/seminoles.webp" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/terrapins.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/ucf.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/wildcats.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/wolverines.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/am.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/buffalos.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/bulldogs2.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/gators.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/longhorns.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/lsu.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/tigers.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/tide.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/wildcats2.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/bulldogs.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/quakers.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/rebels.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/herd.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/villanova.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/boston college.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/roadrunners.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/bulls.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/cardinal.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/cavaliers.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/clemson.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/deacons.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/duke.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/gtech.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/herd.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/hokies.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/hurricane.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/irish.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/miami.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/minutemen.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/orange.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/owls.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/owls2.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/panthers.png" alt="Team 3 Logo" class="team-logo">
+            <img src="logos/tarheels.png" alt="Team 3 Logo" class="team-logo">
+        </div>
+
+    </header>    
+
+<!-- Filter Sidebar -->
+<aside id="filterSidebar" class="filter-sidebar">
+    <button class="close-btn" onclick="toggleFilter()">X</button>
+    <h3>Filter & Sort</h3>
+    
+    <!-- Main filter content with scrollable area -->
+    <div class="filter-content">
+        <!-- Conference Filter Group with Expandable Teams -->
+        <div class="filter-group">
+            <button class="expand-button" onclick="toggleExpand('conference-options')">Conferences</button>
+            <div id="conference-options" class="expandable-content">
+                <button class="expand-button" onclick="toggleExpand('sec-teams')">SEC</button>
+                <div id="sec-teams" class="expandable-content">
+                    <label><input type="checkbox" name="team" value="Alabama"> Alabama Crimson Tide </label>
+                    <label><input type="checkbox" name="team" value="Arkansas Razorbacks"> Arkansas Razorbacks</label>
+                    <label><input type="checkbox" name="team" value="Auburn Tigers"> Auburn Tigers</label>
+                    <label><input type="checkbox" name="team" value="Florida Gators"> Florida Gators</label>
+                    <label><input type="checkbox" name="team" value="Georgia Bulldogs"> Georgia Bulldogs</label>
+                    <label><input type="checkbox" name="team" value="Kentucky Wildcats"> Kentucky Wildcats</label>
+                    <label><input type="checkbox" name="team" value="LSU Tigers"> LSU Tigers</label>
+                    <label><input type="checkbox" name="team" value="Mississippi State Bulldogs"> Mississippi State Bulldogs</label>
+                    <label><input type="checkbox" name="team" value="Missouri Tigers"> Missouri Tigers</label>
+                    <label><input type="checkbox" name="team" value="Ole Miss Rebels"> Ole Miss Rebels</label>
+                    <label><input type="checkbox" name="team" value="South Carolina Gamecocks"> South Carolina Gamecocks</label>
+                    <label><input type="checkbox" name="team" value="Tennessee Volunteers"> Tennessee Volunteers</label>
+                    <label><input type="checkbox" name="team" value="Texas A&M Aggies"> Texas A&M Aggies</label>
+                    <label><input type="checkbox" name="team" value="Vanderbilt Commodores"> Vanderbilt Commodores</label>
+                </div>
+                <button class="expand-button" onclick="toggleExpand('big-ten-teams')">Big Ten</button>
+                <div id="big-ten-teams" class="expandable-content">
+                    <label><input type="checkbox" name="team" value="Illinois Fighting Illini"> Illinois Fighting Illini</label>
+                    <label><input type="checkbox" name="team" value="Indiana Hoosiers"> Indiana Hoosiers</label>
+                    <label><input type="checkbox" name="team" value="Iowa Hawkeyes"> Iowa Hawkeyes</label>
+                    <label><input type="checkbox" name="team" value="Maryland Terrapins"> Maryland Terrapins</label>
+                    <label><input type="checkbox" name="team" value="Michigan State Spartans"> Michigan State Spartans</label>
+                    <label><input type="checkbox" name="team" value="Michigan Wolverines"> Michigan Wolverines</label>
+                    <label><input type="checkbox" name="team" value="Minnesota Golden Gophers"> Minnesota Golden Gophers</label>
+                    <label><input type="checkbox" name="team" value="Nebraska Cornhuskers"> Nebraska Cornhuskers</label>
+                    <label><input type="checkbox" name="team" value="Northwestern Wildcats"> Northwestern Wildcats</label>
+                    <label><input type="checkbox" name="team" value="Ohio State Buckeyes"> Ohio State Buckeyes</label>
+                    <label><input type="checkbox" name="team" value="Wisconsin Badgers"> Wisconsin Badgers</label>
+                    <label><input type="checkbox" name="team" value="Penn State Nittany Lions"> Penn State Nittany Lions</label>
+                    <label><input type="checkbox" name="team" value="Purdue Boilermakers"> Purdue Boilermakers</label>
+                    <label><input type="checkbox" name="team" value="Rutgers Scarlet Knights"> Rutgers Scarlet Knights</label>
+                </div>
+                <button class="expand-button" onclick="toggleExpand('ACC-teams')">ACC</button>
+                <div id="ACC-teams" class="expandable-content">
+                    <label><input type="checkbox" name="team" value="Boston College Eagles"> Boston College Eagles</label>
+                    <label><input type="checkbox" name="team" value="Clemson Tigers"> Clemson Tigers</label>
+                    <label><input type="checkbox" name="team" value="Duke Blue Devils"> Duke Blue Devils</label>
+                    <label><input type="checkbox" name="team" value="Florida State Seminoles"> Florida State Seminoles</label>
+                    <label><input type="checkbox" name="team" value="Georgia Tech Yellow Jackets"> Georgia Tech Yellow Jackets </label>
+                    <label><input type="checkbox" name="team" value="Louisville Cardinals"> Louisville Cardinals</label>
+                    <label><input type="checkbox" name="team" value="Miami Hurricanes"> Miami Hurricanes</label>
+                    <label><input type="checkbox" name="team" value="NC State Wolfpack"> NC State Wolfpack</label>
+                    <label><input type="checkbox" name="team" value="North Carolina Tar Heels"> North Carolina Tar Heels</label>
+                    <label><input type="checkbox" name="team" value="Pittsburgh Panthers"> Pittsburgh Panthers</label>
+                    <label><input type="checkbox" name="team" value="Syracuse Orange"> Syracuse Orange</label>
+                    <label><input type="checkbox" name="team" value="Virginia Cavaliers"> Virginia Cavaliers</label>
+                    <label><input type="checkbox" name="team" value="Virginia Tech Hokies"> Virginia Tech Hokies</label>
+                    <label><input type="checkbox" name="team" value="Wake Forest Demon Deacons"> Wake Forest Demon Deacons</label>
+                </div>
+                <button class="expand-button" onclick="toggleExpand('big-12-teams')">Big 12</button>
+                <div id="big-12-teams" class="expandable-content">
+                    <label><input type="checkbox" name="team" value="BYU Cougars"> BYU Cougars</label>
+                    <label><input type="checkbox" name="team" value="Baylor Bears"> Baylor Bears</label>
+                    <label><input type="checkbox" name="team" value="Cincinnati Bearcats"> Cincinnati Bearcats</label>
+                    <label><input type="checkbox" name="team" value="Houston Cougars"> Houston Cougars</label>
+                    <label><input type="checkbox" name="team" value="Iowa State Cyclones"> Iowa State Cyclones</label>
+                    <label><input type="checkbox" name="team" value="Kansas Jayhawks"> Kansas Jayhawks</label>
+                    <label><input type="checkbox" name="team" value="Kansas State Wildcats"> Kansas State Wildcats</label>
+                    <label><input type="checkbox" name="team" value="Oklahoma State Cowboys"> Oklahoma State Cowboys</label>
+                    <label><input type="checkbox" name="team" value="TCU Horned Frogs"> TCU Horned Frogs</label>
+                    <label><input type="checkbox" name="team" value="Texas Tech Red Raiders"> Texas Tech Red Raiders</label>
+                    <label><input type="checkbox" name="team" value="UCF Knights"> UCF Knights</label>
+                    <label><input type="checkbox" name="team" value="West Virginia Mountaineers"> West Virginia Mountaineers</label>
+                    <label><input type="checkbox" name="team" value="Oklahoma Sooners"> Oklahoma Sooners</label>
+                    <label><input type="checkbox" name="team" value="Texas Longhorns"> Texas Longhorns</label>
+                </div>
+            </div>
+        </div>
+
+    <!-- Offensive Positions with Expandable Content -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('offensive-positions')">Offensive Positions</button>
+        <div id="offensive-positions" class="expandable-content">
+            <label><input type="checkbox" name="position" value="QB"> Quarterback (QB)</label>
+            <label><input type="checkbox" name="position" value="WR"> Wide Receiver (WR)</label>
+            <label><input type="checkbox" name="position" value="RB"> Running Back (RB)</label>
+            <label><input type="checkbox" name="position" value="FB"> Fullback (FB)</label>
+            <label><input type="checkbox" name="position" value="TE"> Tight End (TE)</label>
+            <label><input type="checkbox" name="position" value="OL"> Offensive Lineman (OL)</label>
+        </div>
+    </div>
+
+    <!-- Defensive Positions with Expandable Content -->
+    <div class="filter-group">
+        <button class="expand-button" onclick="toggleExpand('defensive-positions')">Defensive Positions</button>
+        <div id="defensive-positions" class="expandable-content">
+            <label><input type="checkbox" name="position" value="DL"> Defensive Lineman (DL)</label>
+            <label><input type="checkbox" name="position" value="LB"> Linebacker (LB)</label>
+            <label><input type="checkbox" name="position" value="DB"> Defensive Back (DB)</label>
+            <label><input type="checkbox" name="position" value="CB"> Cornerback (CB)</label>
+            <label><input type="checkbox" name="position" value="S"> Safety (S)</label>
+        </div>
+    </div>
+
+        <!-- Special Teams Positions with Expandable Content -->
+        <div class="filter-group">
+            <button class="expand-button" onclick="toggleExpand('special-teams-positions')">Special Teams Positions</button>
+            <div id="special-teams-positions" class="expandable-content">
+                <label><input type="checkbox" name="position" value="K"> Kicker (K)</label>
+                <label><input type="checkbox" name="position" value="P"> Punter (P)</label>
+            </div>
+        </div>
+
+        <!-- Sort Options -->
+        <div class="sort-group">
+            <select id="sortOptions" onchange="applySort()">
+                <option value="height">Height</option>
+                <option value="weight">Weight</option>
+                <option value="yr">Year</option>
+            </select>
+
+            <select id="sortOrder" onchange="applySort()">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </div>
+
+
+    <!-- Button Container at the Bottom -->
+    <div class="button-container">
+        <button class="apply-filters">Apply Filters</button>
+        <button class="reset-filters">Reset Filters</button>
+    </div>
+</aside>
+
+
+    <!-- Main Content -->
+    <main>
+        <section class="header-section">
+            <a href="index.html">
+                <img src="ravens-logo.png" alt="Ravens Logo" class="main-logo">
+            </a>           
+            <h2>Player Base Information</h2>
+            <p>This is information from the school's roster. This includes school, height, weight, etc.</p>
+            <div class="search-filter">
+                <button class="open-filter" onclick="toggleFilter()">Filter</button>
+                <input type="text" placeholder="Search Player" id="search-bar" class="search-bar" oninput="searchPlayer()">
+                <!-- Navigation Button to switch pages -->
+                <a href="player-statistics.html" class="nav-button">View Player Statistics</a>
+            </div>
+            <div id="search-result" class="search-result"></div>                                          
+        </section>
+
+        <!-- Table for Player Stats -->
+        <section class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Jersey</th>
+                        <th>POS</th>
+                        <th>Height</th>
+                        <th>Weight</th>
+                        <th>Yr</th>
+                        <th>Age</th>
+                        <th>High School</th>
+                        <th>Rating</th>
+                        <th>Team</th>
+                        <th>Conference</th>
+                    </tr>
+                </thead>
+                <tbody id="player-table-body">                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

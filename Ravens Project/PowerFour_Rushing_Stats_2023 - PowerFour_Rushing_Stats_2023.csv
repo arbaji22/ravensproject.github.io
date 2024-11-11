@@ -1,0 +1,123 @@
+Player,Pos,Team,Conf,Year,G,Rushing_Att,Rushing_Yds,Rushing_Avg,Rushing_TD,Receiving_Rec,Receiving_Yds,Receiving_Avg,Receiving_TD,Scrimmage_Plays,Scrimmage_Yds,Scrimmage_Avg,Scrimmage_TD
+Jayden Daniels,QB,LSU Tigers ,SEC,2023,12,135,1134,8.4,10,0,0,,0,135,1134,8.4,10
+Jahiem White,RB,West Virginia Mountaineers ,Big 12,2023,12,109,842,7.7,4,5,125,25,2,114,967,8.5,6
+Jaylen Wright,RB,Tennessee Volunteers ,SEC,2023,12,137,1013,7.4,4,22,141,6.4,0,159,1154,7.3,4
+Abu Sama,,Iowa State Cyclones ,Big 12,2023,12,84,614,7.3,6,7,51,7.3,0,91,665,7.3,6
+Johnny Richardson,,UCF Knights ,Big 12,2023,13,87,573,6.6,1,12,46,3.8,0,99,619,6.3,1
+Kendall Milton,RB,Georgia Bulldogs ,SEC,2023,13,121,790,6.5,14,4,25,6.3,0,125,815,6.5,14
+Garrett Greene,QB,West Virginia Mountaineers ,Big 12,2023,12,120,772,6.4,13,0,0,,0,120,772,6.4,13
+R.J. Harvey,,UCF Knights ,Big 12,2023,13,226,1416,6.3,16,19,238,12.5,1,245,1654,6.8,17
+Devin Neal,RB,Kansas Jayhawks ,Big 12,2023,13,203,1280,6.3,16,25,217,8.7,1,228,1497,6.6,17
+Tyrone Tracy Jr.,RB,Purdue Boilermakers ,Big Ten,2023,11,113,716,6.3,8,19,132,6.9,0,132,848,6.4,8
+Henry Parrish Jr.,RB,Miami Hurricanes ,ACC,2023,11,100,625,6.3,6,11,32,2.9,0,111,657,5.9,6
+Jawhar Jordan,RB,Louisville Cardinals ,ACC,2023,13,181,1128,6.2,13,21,246,11.7,1,202,1374,6.8,14
+Gavin Sawchuk,RB,Oklahoma Sooners ,Big 12,2023,12,120,744,6.2,9,14,94,6.7,0,134,838,6.3,9
+Ollie Gordon,RB,Oklahoma State Cowboys ,Big 12,2023,14,285,1732,6.1,21,39,330,8.5,1,324,2062,6.4,22
+Jonathon Brooks,RB,Texas Longhorns ,Big 12,2023,11,187,1139,6.1,10,25,286,11.4,1,212,1425,6.7,11
+Jamal Haynes,WR,Georgia Tech Yellow Jackets ,ACC,2023,13,174,1059,6.1,7,20,151,7.6,1,194,1210,6.2,8
+Isaac Guerendo,RB,Louisville Cardinals ,ACC,2023,14,132,810,6.1,11,22,234,10.6,0,154,1044,6.8,11
+Haynes King,QB,Georgia Tech Yellow Jackets ,ACC,2023,13,120,737,6.1,10,0,0,,0,120,737,6.1,10
+Cody Schrader,RB,Missouri Tigers ,SEC,2023,13,276,1627,5.9,14,22,191,8.7,0,298,1818,6.1,14
+Omarion Hampton,RB,North Carolina Tar Heels ,ACC,2023,13,253,1504,5.9,15,29,222,7.7,1,282,1726,6.1,16
+TreVeyon Henderson,RB,Ohio State Buckeyes ,Big Ten,2023,10,156,926,5.9,11,19,229,12.1,0,175,1155,6.6,11
+Trey Benson,RB,Florida State Seminoles ,ACC,2023,13,156,906,5.8,14,20,227,11.4,1,176,1133,6.4,15
+Darius Taylor,RB,Minnesota Golden Gophers ,Big Ten,2023,6,138,799,5.8,5,11,92,8.4,0,149,891,6,5
+Jaquez Moore,RB,Duke Blue Devils ,ACC,2023,13,116,674,5.8,6,4,64,16,0,120,738,6.2,6
+Re'Mahn Davis,RB,Kentucky Wildcats ,SEC,2023,13,199,1129,5.7,14,33,323,9.8,7,232,1452,6.3,21
+Jarquez Hunter,RB,Auburn Tigers ,SEC,2023,12,159,909,5.7,7,18,118,6.6,0,177,1027,5.8,7
+Trevor Etienne,RB,Florida Gators ,SEC,2023,11,131,753,5.7,8,21,172,8.2,1,152,925,6.1,9
+Dylan Sampson,RB,Tennessee Volunteers ,SEC,2023,12,106,604,5.7,7,17,175,10.3,1,123,779,6.3,8
+Ulysses Bentley IV,RB,Ole Miss Rebels ,SEC,2023,13,95,540,5.7,4,11,87,7.9,1,106,627,5.9,5
+DJ Giddens,RB,Kansas State Wildcats ,Big 12,2023,13,223,1226,5.5,10,29,323,11.1,3,252,1549,6.1,13
+Corey Kiner,RB,Cincinnati Bearcats ,Big 12,2023,12,192,1047,5.5,5,12,49,4.1,0,204,1096,5.4,5
+Logan Diggs,RB,LSU Tigers ,SEC,2023,10,119,653,5.5,7,8,82,10.3,0,127,735,5.8,7
+Emani Bailey,RB,TCU Horned Frogs ,Big 12,2023,12,223,1209,5.4,8,25,184,7.4,1,248,1393,5.6,9
+Braelon Allen,RB,Wisconsin Badgers ,Big Ten,2023,11,181,984,5.4,12,28,132,4.7,0,209,1116,5.3,12
+Phil Mafah,RB,Clemson Tigers ,ACC,2023,13,179,965,5.4,13,21,108,5.1,0,200,1073,5.4,13
+Daijun Edwards,RB,Georgia Bulldogs ,SEC,2023,12,164,881,5.4,13,20,197,9.9,0,184,1078,5.9,13
+Jordan Waters,RB,Duke Blue Devils ,ACC,2023,13,153,819,5.4,12,9,139,15.4,0,162,958,5.9,12
+Montrell Johnson,RB,Florida Gators ,SEC,2023,12,152,817,5.4,5,30,236,7.9,1,182,1053,5.8,6
+Tahj Brooks,RB,Texas Tech Red Raiders ,Big 12,2023,13,290,1538,5.3,10,29,72,2.5,0,319,1610,5,10
+Kyle Monangai,RB,Rutgers Scarlet Knights ,Big Ten,2023,13,242,1262,5.2,8,8,78,9.8,0,250,1340,5.4,8
+Thomas Castellanos,QB,Boston College Eagles ,ACC,2023,13,215,1113,5.2,13,2,-11,-5.5,0,217,1102,5.1,13
+Kaytron Allen,RB,Penn State Nittany Lions ,Big Ten,2023,13,172,902,5.2,6,14,81,5.8,1,186,983,5.3,7
+Treshaun Ward,RB,Kansas State Wildcats ,Big 12,2023,11,124,643,5.2,5,17,129,7.6,2,141,772,5.5,7
+Daniel Hishaw Jr.,RB,Kansas Jayhawks ,Big 12,2023,13,121,626,5.2,8,1,9,9,0,122,635,5.2,8
+Perris Jones,RB,Virginia Cavaliers ,ACC,2023,10,76,393,5.2,2,6,107,17.8,0,82,500,6.1,2
+Amari Daniels,RB,Texas A&M Aggies ,SEC,2023,12,105,532,5.1,6,14,102,7.3,0,119,634,5.3,6
+Donald Chaney Jr.,RB,Miami Hurricanes ,ACC,2023,11,94,478,5.1,2,5,15,3,0,99,493,5,2
+Bhayshul Tuten,RB,Virginia Tech Hokies ,ACC,2023,13,173,863,5,10,27,239,8.9,2,200,1102,5.5,12
+Will Shipley,RB,Clemson Tigers ,ACC,2023,12,167,827,5,5,31,244,7.9,2,198,1071,5.4,7
+Roydell Williams,RB,Alabama Crimson Tide ,SEC,2023,14,111,560,5,5,11,58,5.3,1,122,618,5.1,6
+Tawee Walker,RB,Oklahoma Sooners ,Big 12,2023,12,102,513,5,7,10,81,8.1,0,112,594,5.3,7
+Dontae Smith,RB,Georgia Tech Yellow Jackets ,ACC,2023,11,100,504,5,4,10,92,9.2,1,110,596,5.4,5
+Le'Veon Moss,RB,Texas A&M Aggies ,SEC,2023,9,96,484,5,5,11,84,7.6,0,107,568,5.3,5
+Jabari Small,RB,Tennessee Volunteers ,SEC,2023,11,95,475,5,2,7,40,5.7,0,102,515,5,2
+Jase McClellan,RB,Alabama Crimson Tide ,SEC,2023,13,180,890,4.9,8,15,137,9.1,0,195,1027,5.3,8
+Kyron Drones,QB,Virginia Tech Hokies ,ACC,2023,13,166,818,4.9,5,1,0,0,0,167,818,4.9,5
+Mario Anderson,RB,South Carolina Gamecocks ,SEC,2023,12,143,707,4.9,3,22,153,7,1,165,860,5.2,4
+Reggie Love III,RB,Illinois Fighting Illini ,Big Ten,2023,8,116,567,4.9,4,9,58,6.4,0,125,625,5,4
+Mark Fletcher Jr.,RB,Miami Hurricanes ,ACC,2023,10,105,514,4.9,5,7,62,8.9,0,112,576,5.1,5
+Blake Corum,RB,Michigan Wolverines ,Big Ten,2023,15,258,1245,4.8,27,16,117,7.3,1,274,1362,5,28
+Leshon Williams,RB,Iowa Hawkeyes ,Big Ten,2023,14,170,821,4.8,1,12,68,5.7,1,182,889,4.9,2
+Kye Robichaux,RB,Boston College Eagles ,ACC,2023,11,163,780,4.8,8,15,108,7.2,0,178,888,5,8
+Roman Hemby,RB,Maryland Terrapins ,Big Ten,2023,13,142,680,4.8,4,38,349,9.2,3,180,1029,5.7,7
+CJ Baxter,RB,Texas Longhorns ,Big 12,2023,13,138,659,4.8,5,24,156,6.5,0,162,815,5,5
+LJ Martin,RB,Brigham Young Cougars ,Big 12,2023,10,109,518,4.8,4,11,45,4.1,1,120,563,4.7,5
+John Rhys Plumlee,,UCF Knights ,Big 12,2023,10,106,505,4.8,5,0,0,,0,106,505,4.8,5
+Aidan Robbins,RB,Brigham Young Cougars ,Big 12,2023,8,101,485,4.8,1,7,33,4.7,0,108,518,4.8,1
+Devin Mockobee,RB,Purdue Boilermakers ,Big Ten,2023,12,172,811,4.7,6,19,180,9.5,1,191,991,5.2,7
+CJ Donaldson,RB,West Virginia Mountaineers ,Big 12,2023,12,171,798,4.7,11,9,59,6.6,0,180,857,4.8,11
+Brennan Armstrong,QB,NC State Wolfpack ,ACC,2023,12,143,665,4.7,7,0,0,,0,143,665,4.7,7
+Jo'quavious Marks,RB,Mississippi State Bulldogs ,SEC,2023,9,121,573,4.7,4,23,167,7.3,2,144,740,5.1,6
+Eli Sanders,,Iowa State Cyclones ,Big 12,2023,9,102,477,4.7,4,5,43,8.6,1,107,520,4.9,5
+Parker Jenkins,RB,Houston Cougars ,Big 12,2023,12,99,464,4.7,3,15,81,5.4,0,114,545,4.8,3
+Trent Howland,RB,Indiana Hoosiers ,Big Ten,2023,11,75,354,4.7,2,3,22,7.3,0,78,376,4.8,2
+Justice Ellison,RB,Wake Forest Demon Deacons ,ACC,2023,11,120,548,4.6,1,10,61,6.1,0,130,609,4.7,1
+Rodney Hammond Jr.,RB,Pittsburgh Panthers ,ACC,2023,12,118,547,4.6,4,8,60,7.5,0,126,607,4.8,4
+Kaden Feagin,RB,Illinois Fighting Illini ,Big Ten,2023,9,95,438,4.6,2,9,116,12.9,1,104,554,5.3,3
+Emmett Johnson,RB,Nebraska Cornhuskers ,Big Ten,2023,12,90,411,4.6,2,7,46,6.6,0,97,457,4.7,2
+Malachi Thomas,RB,Virginia Tech Hokies ,ACC,2023,13,83,381,4.6,2,9,49,5.4,0,92,430,4.7,2
+Nicholas Singleton,RB,Penn State Nittany Lions ,Big Ten,2023,13,171,752,4.4,8,26,308,11.8,2,197,1060,5.4,10
+Jordan Nubin,RB,Minnesota Golden Gophers ,Big Ten,2023,13,127,559,4.4,3,6,27,4.5,0,133,586,4.4,3
+Deamonte Trayanum,LB,Ohio State Buckeyes ,Big Ten,2023,12,85,373,4.4,3,9,53,5.9,0,94,426,4.5,3
+Quinshon Judkins,RB,Ole Miss Rebels ,SEC,2023,13,271,1158,4.3,15,22,149,6.8,2,293,1307,4.5,17
+LeQuint Allen,RB,Syracuse Orange ,ACC,2023,13,245,1064,4.3,9,38,210,5.5,1,283,1274,4.5,10
+Nate Carter,,Michigan State Spartans ,Big Ten,2023,12,185,798,4.3,4,22,103,4.7,0,207,901,4.4,4
+Demond Claiborne,RB,Wake Forest Demon Deacons ,ACC,2023,10,137,586,4.3,5,3,35,11.7,0,140,621,4.4,5
+Dawson Pendergrass,RB,Baylor Bears ,Big 12,2023,11,79,338,4.3,5,26,199,7.7,2,105,537,5.1,7
+Dominic Richardson,RB,Baylor Bears ,Big 12,2023,11,125,519,4.2,1,21,152,7.2,1,146,671,4.6,2
+Donovan Edwards,RB,Michigan Wolverines ,Big Ten,2023,15,119,497,4.2,5,30,249,8.3,0,149,746,5,5
+Garrett Shrader,QB,Syracuse Orange ,ACC,2023,11,113,469,4.2,8,4,1,0.3,0,117,470,4,8
+Josh Henderson,RB,Indiana Hoosiers ,Big Ten,2023,8,81,337,4.2,2,10,125,12.5,1,91,462,5.1,3
+Patrick Smith,RB,Vanderbilt Commodores ,SEC,2023,11,79,327,4.1,2,4,15,3.8,0,83,342,4.1,2
+Heinrich Haarberg,QB,Nebraska Cornhuskers ,Big Ten,2023,10,120,477,4,5,2,12,6,0,122,489,4,5
+Kaleb Johnson,RB,Iowa Hawkeyes ,Big Ten,2023,10,117,463,4,3,3,25,8.3,0,120,488,4.1,3
+Drake Maye,QB,North Carolina Tar Heels ,ACC,2023,12,112,449,4,9,0,0,,0,112,449,4,9
+Anthony Grant,RB,Nebraska Cornhuskers ,Big Ten,2023,11,104,413,4,3,4,13,3.3,0,108,426,3.9,3
+Dillon Gabriel,QB,Oklahoma Sooners ,Big 12,2023,12,93,373,4,12,0,0,,0,93,373,4,12
+Cam Porter,RB,Northwestern Wildcats ,Big Ten,2023,13,166,651,3.9,4,21,121,5.8,1,187,772,4.1,5
+Sedrick Alexander,RB,Vanderbilt Commodores ,SEC,2023,12,96,371,3.9,4,18,133,7.4,0,114,504,4.4,4
+Cartevious Norton,,Iowa State Cyclones ,Big 12,2023,11,87,343,3.9,3,3,20,6.7,0,90,363,4,3
+Payton Thorne,QB,Auburn Tigers ,SEC,2023,13,134,515,3.8,3,0,0,,0,134,515,3.8,3
+Gavin Wimsatt,QB,Rutgers Scarlet Knights ,Big Ten,2023,13,131,497,3.8,11,0,0,,0,131,497,3.8,11
+Rueben Owens,RB,Texas A&M Aggies ,SEC,2023,13,101,385,3.8,3,12,109,9.1,0,113,494,4.4,3
+C'Bo Flemister,RB,Pittsburgh Panthers ,ACC,2023,12,98,367,3.7,2,8,106,13.3,1,106,473,4.5,3
+Emory Jones,QB,Cincinnati Bearcats ,Big 12,2023,12,155,560,3.6,4,0,0,,0,155,560,3.6,4
+Tanner Mordecai,QB,Wisconsin Badgers ,Big Ten,2023,10,90,302,3.4,4,2,14,7,0,92,316,3.4,4
+Mike Hollins,RB,Virginia Cavaliers ,ACC,2023,11,80,274,3.4,7,10,34,3.4,1,90,308,3.4,8
+Jalen Milroe,QB,Alabama Crimson Tide ,SEC,2023,13,161,531,3.3,12,0,0,,0,161,531,3.3,12
+Jaxson Dart,QB,Ole Miss Rebels ,SEC,2023,13,119,389,3.3,8,1,15,15,0,120,404,3.4,8
+Rashod Dubinion,RB,Arkansas Razorbacks ,SEC,2023,10,82,260,3.2,1,14,85,6.1,1,96,345,3.6,2
+Donovan Smith,QB,Houston Cougars ,Big 12,2023,12,138,428,3.1,6,1,28,28,1,139,456,3.3,7
+Kobe Pace,RB,Virginia Cavaliers ,ACC,2023,12,125,382,3.1,1,19,176,9.3,3,144,558,3.9,4
+Luke Altmyer,QB,Illinois Fighting Illini ,Big Ten,2023,9,94,282,3,3,0,0,,0,94,282,3,3
+Delbert Mimms,RB,NC State Wolfpack ,ACC,2023,13,96,282,2.9,8,3,23,7.7,0,99,305,3.1,8
+K.J. Jefferson,QB,Arkansas Razorbacks ,SEC,2023,12,161,447,2.8,2,0,0,,0,161,447,2.8,2
+Brady Cook,QB,Missouri Tigers ,SEC,2023,13,113,319,2.8,8,0,0,,0,113,319,2.8,8
+Brendan Sorsby,QB,Indiana Hoosiers ,Big Ten,2023,10,113,276,2.4,4,0,0,,0,113,276,2.4,4
+Hudson Card,QB,Purdue Boilermakers ,Big Ten,2023,11,93,203,2.2,5,0,0,,0,93,203,2.2,5
+Cade Klubnik,QB,Clemson Tigers ,ACC,2023,13,125,182,1.5,4,0,0,,0,125,182,1.5,4
+Mitch Griffis,QB,Wake Forest Demon Deacons ,ACC,2023,9,106,128,1.2,2,0,0,,0,106,128,1.2,2
+Spencer Rattler,QB,South Carolina Gamecocks ,SEC,2023,12,97,104,1.1,4,0,0,,0,97,104,1.1,4
+Jack Plummer,QB,Louisville Cardinals ,ACC,2023,14,98,34,0.3,1,0,0,,0,98,34,0.3,1

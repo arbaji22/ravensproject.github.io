@@ -1,0 +1,54 @@
+Player,Pos,Team,Conf,Year,G,XPM,XPA,XP%,FGM,FGA,FG%,Pts
+Alex McPherson,K,Auburn Tigers ,SEC,2023,13,40,40,100,13,13,100,79
+Noah Burnette,K,North Carolina Tar Heels ,ACC,2023,11,43,43,100,19,20,95,100
+John Love,K,Virginia Tech Hokies ,ACC,2023,13,44,44,100,22,24,91.7,110
+Ryan Fitzgerald,K,Florida State Seminoles ,ACC,2023,14,58,58,100,19,21,90.5,115
+Aidan Birr,K,Georgia Tech Yellow Jackets ,ACC,2023,12,37,38,97.4,17,19,89.5,88
+Will Reichard,K,Alabama Crimson Tide ,SEC,2023,14,55,55,100,22,25,88,121
+James Turner,K,Michigan Wolverines ,Big Ten,2023,15,65,66,98.5,18,21,85.7,119
+Will Bettridge,K,Virginia Cavaliers ,ACC,2023,12,31,31,100,18,21,85.7,85
+Mitch Jeter,K,South Carolina Gamecocks ,SEC,2023,12,33,34,97.1,12,14,85.7,69
+Dragan Kesich,K,Minnesota Golden Gophers ,Big Ten,2023,13,27,27,100,23,27,85.2,96
+Andres Borregales,K,Miami Hurricanes ,ACC,2023,13,44,45,97.8,22,26,84.6,110
+Peyton Woodring,K,Georgia Bulldogs ,SEC,2023,14,71,71,100,21,25,84,134
+Cam Little,K,Arkansas Razorbacks ,SEC,2023,12,33,33,100,20,24,83.3,93
+Jai Patel,K,Rutgers Scarlet Knights ,Big Ten,2023,12,33,34,97.1,15,18,83.3,78
+Bert Auburn,K,Texas Longhorns ,Big 12,2023,14,56,56,100,29,35,82.9,143
+Michael Hayes,K,West Virginia Mountaineers ,Big 12,2023,13,46,46,100,17,21,81,97
+Trey Smack,K,Florida Gators ,SEC,2023,12,29,29,100,17,21,81,80
+Chase Contreraz,RB,Iowa State Cyclones ,Big 12,2023,13,36,37,97.3,21,26,80.8,99
+Harrison Mevis,K,Missouri Tigers ,SEC,2023,13,45,46,97.8,24,30,80,117
+Jayden Fielding,K,Ohio State Buckeyes ,Big Ten,2023,13,49,50,98,16,20,80,97
+Damian Ramos,K,LSU Tigers ,SEC,2023,13,77,77,100,12,15,80,113
+Alex Hale,K,Oklahoma State Cowboys ,Big 12,2023,13,36,38,94.7,27,34,79.4,117
+Alex Felkins,K,Penn State Nittany Lions ,Big Ten,2023,13,47,47,100,19,24,79.2,104
+Carter Brown,K,Cincinnati Bearcats ,Big 12,2023,12,30,30,100,15,19,78.9,75
+Nathanial Vakos,K,Wisconsin Badgers ,Big Ten,2023,13,34,34,100,15,19,78.9,79
+Chris Tennant,K,Kansas State Wildcats ,Big 12,2023,13,56,57,98.2,11,14,78.6,89
+Liam Connor,K,Boston College Eagles ,ACC,2023,13,36,39,92.3,11,14,78.6,69
+Seth Keller,K,Kansas Jayhawks ,Big 12,2023,13,47,49,95.9,11,14,78.6,80
+Will Ferrin,K,Brigham Young Cougars ,Big 12,2023,12,32,33,97,11,14,78.6,65
+Brayden Narveson,K,NC State Wolfpack ,ACC,2023,13,38,38,100,18,23,78.3,92
+Caden Davis,K,Ole Miss Rebels ,SEC,2023,13,45,45,100,18,23,78.3,99
+Charles Campbell,K,Tennessee Volunteers ,SEC,2023,13,49,49,100,18,23,78.3,103
+Todd Pelino,K,Duke Blue Devils ,ACC,2023,12,38,38,100,18,23,78.3,92
+Randy Bond,K,Texas A&M Aggies ,SEC,2023,13,48,48,100,26,35,74.3,126
+Caleb Griffin,K,Illinois Fighting Illini ,Big Ten,2023,12,24,26,92.3,14,19,73.7,66
+Jack Olsen,K,Northwestern Wildcats ,Big Ten,2023,13,33,33,100,14,19,73.7,75
+Gino Garcia,TE,Texas Tech Red Raiders ,Big 12,2023,13,40,40,100,16,22,72.7,88
+Kyle Ferrie,S,Mississippi State Bulldogs ,SEC,2023,12,27,27,100,16,22,72.7,75
+Jonathan Kim,K,Michigan State Spartans ,Big Ten,2023,12,17,17,100,13,18,72.2,56
+Isaiah Hankins,DL,Baylor Bears ,Big 12,2023,12,21,23,91.3,18,25,72,75
+Zach Schmit,K,Oklahoma Sooners ,Big 12,2023,13,67,67,100,15,21,71.4,112
+Chris Freeman,K,Indiana Hoosiers ,Big Ten,2023,12,29,30,96.7,10,14,71.4,59
+Brock Travelstead,K,Louisville Cardinals ,ACC,2023,14,39,41,95.1,17,24,70.8,90
+Jonathan Weitz,K,Clemson Tigers ,ACC,2023,10,29,29,100,14,20,70,71
+Matthew Dennis,K,Wake Forest Demon Deacons ,ACC,2023,11,20,21,95.2,14,20,70,62
+Drew Stevens,K,Iowa Hawkeyes ,Big Ten,2023,14,19,20,95,18,26,69.2,73
+Ben Sauls,DL,Pittsburgh Panthers ,ACC,2023,12,28,28,100,11,16,68.8,61
+Jack Howes,LB,Maryland Terrapins ,Big Ten,2023,13,46,47,97.9,13,19,68.4,85
+Griffin Kell,WR,TCU Horned Frogs ,Big 12,2023,12,44,46,95.7,14,21,66.7,86
+Brady Denaburg,K,Syracuse Orange ,ACC,2023,13,36,37,97.3,10,16,62.5,66
+Colton Boomer,,UCF Knights ,Big 12,2023,13,48,50,96,13,21,61.9,87
+Tristan Alvano,K,Nebraska Cornhuskers ,Big Ten,2023,12,27,27,100,9,15,60,54
+Jack Martin,K,Houston Cougars ,Big 12,2023,12,34,34,100,8,14,57.1,58

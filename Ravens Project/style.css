@@ -1,0 +1,796 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    background-color: #141414; /* Darker background for contrast */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e0e0e0; /* Softer white for better readability */
+}
+
+/* Main Logo Styling */
+.main-logo {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintains the aspect ratio based on width */
+    display: block;
+    margin: 0 auto 1rem auto; /* Center the image and add space below it */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.main-logo:hover {
+    transform: scale(1.1); /* Scales the logo to 110% */
+    opacity: 0.9; /* Slightly decreases the opacity */
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem; /* Reduced padding for a smaller navbar */
+    background-color: #1c1c1c;
+}
+
+.title-container h1 {
+    color: #6200ff;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    
+}
+
+/* Adjustments for Navbar Links */
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem; /* Reduced margin for a tighter layout */
+}
+
+.navbar nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #6200ff;
+}
+
+/* Logo Bar Styling */
+.logo-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* Less space between logos */
+    padding: 0.3rem 0; /* Reduced padding for a smaller logo bar */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team-logo {
+    width: 25px; /* Smaller size for logos */
+    height: auto;
+    opacity: 0.8; /* Slight transparency for aesthetics */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.team-logo:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Header Section */
+.header-section {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.header-section h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+}
+
+.dive-deep-header-section {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.dive-deep-header-section h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+}
+
+.filter-container {
+    margin-right: auto; 
+}
+
+/* Container for Filter Button and Search Bar */
+.search-filter {
+    display: flex;
+    align-items: center;
+    position: relative; /* Allows for absolute positioning of search bar */
+    margin-top: 1.5rem;
+}
+
+/* Filter Button Styling */
+.open-filter {
+    margin-right: auto; /* Pushes the button to the far left */
+    padding: 0.5rem 1rem;
+    background-color: #6200ff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Centered Search Bar */
+.search-bar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the search bar */
+    width: 250px; /* Adjust width as needed */
+    padding: 0.6rem;
+    border: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    
+}
+
+.filter-button:hover,
+.open-filter:hover {
+    background-color: #24125f;
+}
+
+/* Table Styling with Rounded Edges */
+.table-section {
+    margin: 20px auto;
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Allows border-radius to work on table */
+    border-spacing: 0;
+    background-color: #1c1c1e;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners for the entire table */
+    overflow: hidden; /* Clips child elements to the rounded corners */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #2c2c2e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #444;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #2a2a2c;
+}
+
+table tbody tr:hover {
+    background-color: #3a3a3c;
+}
+
+/* Rounded corners for the first and last rows */
+table thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.player-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.filter-sidebar.show {
+    left: 0;
+}
+
+/* Sidebar Title */
+.filter-sidebar h3 {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+/* Close Button */
+.filter-sidebar .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #7e52e7;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.filter-sidebar .close-btn:hover {
+    color: #24125f;
+}
+
+/* Section Titles (Offense, Defense) with Separator Lines */
+.filter-group h4 {
+    font-size: 0.9rem;
+    margin: 1rem 0 0.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #444; /* Line under each section title */
+}
+
+/* Separator Line Between Filter Groups */
+.filter-group {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #444; /* Line separating each group */
+}
+
+/* Checkbox and Label Styling */
+.filter-group label {
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    color: #b3b3b3; /* Muted gray color */
+    cursor: pointer;
+    padding: 0.2rem 0;
+    transition: color 0.3s ease;
+}
+
+.filter-group label:hover {
+    color: #ffffff;
+}
+
+.filter-group input[type="checkbox"] {
+    appearance: none;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 50%; /* Rounded checkboxes */
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.filter-group input[type="checkbox"]:checked {
+    background-color: #6200ff;
+    border-color: #6200ff;
+}
+
+.filter-group input[type="checkbox"]:focus {
+    outline: none;
+    border-color: #6200ff;
+}
+
+/* Apply and Reset Buttons */
+/* Filter Sidebar */
+.filter-sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #222;
+    color: #ffffff;
+    padding: 1rem;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Filter Content Scrollable Section */
+.filter-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 1rem; /* Space between content and buttons */
+}
+
+/* Button Container at the Bottom */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: auto; /* Pushes the buttons to the bottom */
+}
+
+/* Apply and Reset Buttons */
+.apply-filters,
+.reset-filters {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #6200ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.apply-filters:hover,
+.reset-filters:hover {
+    background-color: #24125f;
+}
+
+
+.apply-filters:hover,
+.reset-filters:hover {
+    background-color: #24125f;
+}
+
+/* Expand Button Styling */
+.expand-button {
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.expand-button:hover {
+    color: #6200ff;
+}
+
+/* Expandable Content Styling */
+.expandable-content {
+    display: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.expandable-content.show {
+    display: block;
+}
+
+/* Style for Disabled Items */
+.filter-group label.disabled {
+    color: #555;
+    cursor: not-allowed;
+}
+
+.filter-group input[type="checkbox"].disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+h1, h2, h3, button, .filter-sidebar {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700; /* Bold style */
+    letter-spacing: 1px; /* Adjust this value as needed */
+}
+
+body .filter-sidebar {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400; /* Bold style */
+    letter-spacing: 1px; /* Adjust this value as needed */
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.landing-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+/* Options Container */
+.options-container {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Option Box */
+/* Option Box */
+.option-box {
+    position: relative;
+    width: 450px;
+    height: 350px;
+    background-color: #24125f;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    border: 4px solid #ffffff; /* Inner white border */
+}
+
+.option-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 8px #9a7611, 0 0 10px 5px rgba(98, 0, 255, 0.3); /* Enhanced glow on hover */
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.option-box:hover .overlay {
+    opacity: 1;
+}
+
+.option-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3; /* Dim the image a bit for readability */
+}
+
+.overlay h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Navigation Button Styling */
+.nav-button {
+    position: sticky;
+    padding: 0.5rem 1rem;
+    background-color: #6200ff; /* Purple background */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0; /* Align to the right side */
+    margin-right: 1rem; /* Space from the edge */
+    transition: background-color 0.3s ease;
+}
+
+.nav-button2 {
+    padding: 0.5rem 1rem;
+    background-color: #6200ff; /* Purple background */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0; /* Align to the right side */
+    margin-right: 1rem; /* Space from the edge */
+    transition: background-color 0.3s ease;
+}
+
+.nav-button3 {
+    padding: 0.5rem 1rem;
+    background-color: #6200ff; /* Purple background */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+    left: 50%;
+}
+
+.nav-button:hover {
+    background-color: #24125f; /* Lighter purple on hover */
+}
+.nav-button2:hover {
+    background-color: #24125f; /* Lighter purple on hover */
+}
+.nav-button3:hover {
+    background-color: #24125f; /* Lighter purple on hover */
+}
+
+
+/* Center the Power BI iframe */
+.bi-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; /* Adjust as needed for spacing */
+}
+
+.bi-embed iframe {
+    max-width: 100%;
+    border: none;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.stat-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.stat-button {
+    padding: 0.5rem 1rem;
+    background-color: #6200ff; /* Replace with your preferred color */
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.stat-button.active {
+    border: 2px solid #ffffff; /* White border */
+    background-color: #24125f; /* Darker background color for active state */
+    color: #ffffff; /* Text color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Light glow effect */
+}
+
+.stat-button:hover {
+    background-color: #24125f; /* Lighter color for hover effect */
+}
+
+/* Container for the table */
+.table-container {
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+/* Table styling */
+.table-container table {
+    width: 100%; /* Full width to fit container */
+    border-collapse: collapse;
+    font-size: 0.8em; /* Adjust font size for initial fit */
+    background-color: #333; /* Set table background color */
+}
+
+/* Table header styling */
+.table-container th,
+.table-container td {
+    padding: 5px; /* Reduce padding for a more compact table */
+    text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Further reduce font size on small screens */
+@media (max-width: 1024px) {
+    .table-container table {
+        font-size: 0.7em; /* Slightly smaller font on medium screens */
+    }
+
+    .table-container th,
+    .table-container td {
+        padding: 4px; /* Reduce padding */
+    }
+}
+
+@media (max-width: 768px) {
+    .table-container table {
+        font-size: 0.6em; /* Smaller font on small screens */
+    }
+
+    .table-container th,
+    .table-container td {
+        padding: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .table-container table {
+        font-size: 0.5em; /* Further reduce font on very small screens */
+    }
+
+    .table-container th,
+    .table-container td {
+        padding: 2px;
+    }
+}
+
+
+/* Sort Options */
+.sort-group {
+    margin-top: 20px;
+}
+
+.sort-group h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sort-group label {
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.sort-group select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sort-group select:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.filter-group, .sort-group {
+    margin-bottom: 20px; /* Adds spacing between sections */
+}
+
+/* Team Section Styles */
+.team-section {
+    text-align: center;
+    background-color: #121212; /* Set to match the black background */
+    padding: 50px 20px;
+    color: #fff; /* Set text color to white for contrast */
+}
+
+.team-section h2 {
+    font-size: 2em;
+    color: #fff; /* White color for the heading */
+    margin-bottom: 30px;
+}
+
+/* Container to display team member cards in a row */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping if screen is too small */
+}
+
+/* Styling for each team member card */
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #222; /* Match the dark background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px; /* Increased width */
+    margin: 10px;
+}
+
+.team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #6200ff; /* Accent border color */
+    transition: transform 0.3s ease;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-photo:hover {
+    transform: scale(1.1);
+}
+
+.team-member h3 {
+    margin: 8px 0 5px 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: #ccc;
+    margin: 3px 0;
+    word-wrap: break-word; /* Ensure the email wraps if it's too long */
+}
+
+.team-member a {
+    color: #9a7611;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-top: 5px;
+}
+
+.team-member a:hover {
+    color: #6200ff;
+}
